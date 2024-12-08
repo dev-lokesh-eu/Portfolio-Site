@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lokesh - Personal Portfolio</title>
+    <!--Meta TAgs For Seo-->
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Portfolio of Lokesh Chauhan, showcasing my skills in software development, networking, and IoT projects.">
+    <meta name="keywords" content="Lokesh Chauhan,DevOps Engineer, Linux Administration, software developer, Java, Python, IoT, networking, portfolio">
+    <meta name="author" content="Lokesh Chauhan">
+    <!-- Open Graph Meta Tags for Social Media -->
+    <meta property="og:title" content="Lokesh Chauhan's Portfolio">
+    <meta property="og:description" content="Explore the portfolio of Lokesh Chauhan, a skilled software developer, and learn about my projects, achievements, and expertise.">
+    <meta property="og:image" content="URL-to-your-image.jpg">
+    <!-- Replace with the URL of your portfolio image -->
+    <meta property="og:url" content="https:example.com">
+    <meta property="og:type" content="website">
+
+    <!--
+    - favicon
+  -->
+    <link rel="icon" href="/public/assets/logo/img1.jpg" type="image/x-icon">
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="/public/css/styles.css">
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+
+        <!--
+      - #SIDEBAR
+    -->
+
+        <aside class="sidebar" data-sidebar>
+
+            <div class="sidebar-info">
+
+                <figure class="avatar-box">
+                    <img src="/public/assets/avatar/avatar-1.png" alt="Lokesh Chauhan" width="80">
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="Lokesh Chauhan">Lokesh Chauhan</h1>
+
+                    <p class="title">Linux Administrator</p>
+                </div>
+
+                <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+            </div>
+
+            <div class="sidebar-info_more">
+
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+
+                            <a href="mailto:lokeshchauhan171735@gmail.com" class="contact-link">lokeshchauhan171735@gmail.com</a>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+
+                            <a href="tel:+918227070899" class="contact-link">+918227070899</a>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Birthday</p>
+
+                            <time datetime="2004-01-2">Jan 2, 2004</time>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+
+                            <address>Jaipur, Rajasthan, (India)</address>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+
+                    <li class="social-item">
+                        <a href="https://github.com/HackResist" class="social-link">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="social-item">
+                        <a href="https://x.com/dev_lokesh_" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="social-item">
+                        <a href="https://www.linkedin.com/in/lokeshchauhanapex/" class="social-link">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </aside>
+
+
+
+
+
+        <!--
+      - #main-content
+    -->
+
+        <div class="main-content">
+
+            <!--
+        - #NAVBAR
+      -->
+
+            <nav class="navbar">
+
+                <ul class="navbar-list">
+
+                    <li class="navbar-item">
+                        <button class="navbar-link  active" data-nav-link>About</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Resume</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Project</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Contact</button>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+
+
+
+
+            <!--
+        - #ABOUT
+      -->
+
+            <article class="about  active" data-page="about">
+
+                <header>
+                    <h2 class="h2 article-title">About me</h2>
+                </header>
+
+                <section class="about-text">
+                    <p>
+                        I'm Linux Administrator And DevOps Engineer from india ,At present time i pursuing my Bachelor degree in Technology from Apex University Jaipur.
+
+                    </p>
+
+                    <p>
+                        I Love to Learn New things and i also like to travel at place in my free time.
+                    </p>
+                </section>
+
+
+                <!--
+          - service
+        -->
+
+                <section class="service">
+
+                    <h3 class="h3 service-title">What i'm Learning</h3>
+
+                    <ul class="service-list">
+
+                        <li class="service-item">
+
+                            <div class="service-icon-box">
+                                <img src="/public/assets/icon/icon-design.svg" alt="Linux" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">Linux Administrator</h4>
+
+                                <p class="service-item-text">
+                                    Provide Linux Administrator Solution in modern Technology world.
+                                </p>
+                            </div>
+
+                        </li>
+
+                        <li class="service-item">
+
+                            <div class="service-icon-box">
+                                <img src="/public/assets/icon/icon-dev.svg" alt="DevOps" width="40">
+                            </div>
+
+                            <div class="service-content-box">
+                                <h4 class="h4 service-item-title">DevOps Engineering</h4>
+
+                                <p class="service-item-text">
+                                    High-quality integration with development team that ensure the work flow is going better.
+                                </p>
+                            </div>
+
+                        </li>
+
+
+                        </li>
+
+                    </ul>
+
+                </section>
+
+
+
+                <div class="modal-container" data-modal-container>
+
+                    <div class="overlay" data-overlay></div>
+
+                    <section class="testimonials-modal">
+
+                        <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+                        <div class="modal-img-wrapper">
+                            <figure class="modal-avatar-box">
+                                <img src="/public/assets/avatar/avatar-1.png" alt="Lokesh" width="80" data-modal-img>
+                            </figure>
+
+                            <img src="/public/assets/icon/icon-quote.svg" alt="quote icon">
+                        </div>
+
+                        <div class="modal-content">
+
+
+                        </div>
+
+                    </section>
+
+                </div>
+
+
+
+                </section>
+
+            </article>
+
+
+
+
+
+            <!--
+        - #RESUME
+      -->
+
+            <article class="resume" data-page="resume">
+
+                <header>
+                    <h2 class="h2 article-title">Resume</h2>
+                </header>
+
+                <section class="timeline">
+
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+
+                        <h3 class="h3">Education</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Bachelor of Technology</h4>
+
+                            <span>2022 — Now</span>
+
+                            <p class="timeline-text">
+                                <em>Apex University, Jaipur</em>
+                            </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Senior Secondary School</h4>
+
+                            <span>2020 - 2022</span>
+
+                            <p class="timeline-text">
+                                <em>S.N College Shahmal Khaira Deo, Rohtas, Bihar.</em></p>
+                            <p class="timeline-text">Percentage: 60% </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Secondary School</h4>
+
+                            <span>2018 — 2020</span>
+
+                            <p class="timeline-text">
+                                <em>Shri Ganga Paswan Harijan +2 Vidyalaya, Kochas, Bihar</em></p>
+                            <p class="timeline-text">
+                                Percentage : 70.11%
+                            </p>
+
+                        </li>
+
+                    </ol>
+
+                </section>
+
+                <section class="timeline">
+
+                    <div class="title-wrapper">
+                        <div class="icon-box">
+                            <ion-icon name="book-outline"></ion-icon>
+                        </div>
+
+                        <h3 class="h3">Learning Status</h3>
+                    </div>
+
+                    <ol class="timeline-list">
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Linux Administration</h4>
+
+                            <span>Intermediate — Present</span>
+
+                            <p class="timeline-text">
+                                <em>Learning server management, scripting, and system troubleshooting.</em>
+                            </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">DevOps Engineering</h4>
+
+                            <span>Beginner - Now</span>
+
+                            <p class="timeline-text">
+                                <em>Studying CI/CD pipelines, Docker, Kubernetes, and cloud skills like AWS.</em>
+                            </p>
+
+                        </li>
+
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Cybersecurity</h4>
+
+                            <span>Beginner - Now</span>
+
+                            <p class="timeline-text">
+                                <em>Building Strong Understanding In Cyber attacks and security.</em>
+                            </p>
+
+                        </li>
+                        <li class="timeline-item">
+
+                            <h4 class="h4 timeline-item-title">Cloud Computing</h4>
+
+                            <span>Beginner(A1) - Now</span>
+
+                            <p class="timeline-text">
+                                <em>Learning cloud platforms like AWS and Azure for infrastructure management.</em>
+                            </p>
+
+                        </li>
+
+                    </ol>
+
+                </section>
+
+                <section class="skill">
+
+                    <h3 class="h3 skills-title">My skills</h3>
+
+                    <ul class="skills-list content-card">
+
+                        <li class="skills-item">
+
+                            <div class="title-wrapper">
+                                <h5 class="h5">Github</h5>
+                                <data value="80">80%</data>
+                            </div>
+
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 80%;"></div>
+                            </div>
+
+                        </li>
+
+                        <li class="skills-item">
+
+                            <div class="title-wrapper">
+                                <h5 class="h5">Linux</h5>
+                                <data value="70">70%</data>
+                            </div>
+
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 70%;"></div>
+                            </div>
+
+                        </li>
+
+                        <li class="skills-item">
+
+                            <div class="title-wrapper">
+                                <h5 class="h5">Java</h5>
+                                <data value="65">65%</data>
+                            </div>
+
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 65%;"></div>
+                            </div>
+
+                        </li>
+
+                        <li class="skills-item">
+
+                            <div class="title-wrapper">
+                                <h5 class="h5">Python</h5>
+                                <data value="60">60%</data>
+                            </div>
+
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 60%;"></div>
+                            </div>
+
+                        </li>
+                        <li class="skills-item">
+
+                            <div class="title-wrapper">
+                                <h5 class="h5">WordPress</h5>
+                                <data value="65">65%</data>
+                            </div>
+
+                            <div class="skill-progress-bg">
+                                <div class="skill-progress-fill" style="width: 65%;"></div>
+                            </div>
+
+                        </li>
+
+                    </ul>
+
+                </section>
+
+            </article>
+
+
+
+
+
+            <div class="filter-select-box">
+
+                <button class="filter-select" data-select>
+
+      
+            </div>
+
+        
+
+            <article class="project" data-page="project">
+
+                <header>
+                    <h2 class="h2 article-title">Project</h2>
+                </header>
+
+                <section class="project-posts">
+
+                    <ul class="project-posts-list">
+
+                        <li class="project-post-item">
+                            <a href="https://github.com/HackResist/Shell-X-Bot">
+
+                                <figure class="project-banner-box">
+                                    <img src="/public/assets/projects/ShellXBot.jpeg" alt="Shell-X-Bot" loading="lazy">
+                                </figure>
+
+                                <div class="project-content">
+
+                                    <div class="project-meta">
+                                        <p class="project-category">Windows</p>
+
+                                        <span class="dot"></span>
+
+                                        <time datetime="2024-10-12">Oct 12, 2024</time>
+                                    </div>
+
+                                    <h3 class="h3 project-item-title">Shell-X-Bot</h3>
+
+                                    <p class="project-text">
+                                        PowerShell script enabling remote system management, including file operations, system control, and device monitoring via Telegram chat commands.
+                                    </p>
+
+                                </div>
+
+                            </a>
+                        </li>
+
+                        <li class="project-post-item">
+                            <a href="https://github.com/HackResist/Telegram_WebNotifier">
+
+                                <figure class="project-banner-box">
+                                    <img src="/public/assets/projects/Telegram_Webnotifier.jpg" alt="Telegram_WebNotifier" loading="lazy">
+                                </figure>
+
+                                <div class="project-content">
+
+                                    <div class="project-meta">
+                                        <p class="project-category">Browser</p>
+
+                                        <span class="dot"></span>
+
+                                        <time datetime="2022-02-23">Fab 23, 2022</time>
+                                    </div>
+
+                                    <h3 class="h3 project-item-title">Telegram WebNotifier</h3>
+
+                                    <p class="project-text">Get Real-time Web Activity Notifications on Telegram.
+                                    </p>
+
+                                </div>
+
+                            </a>
+                        </li>
+
+                        <li class="project-post-item">
+                            <a href="https://github.com/HackResist/SmartHomeBot">
+
+                                <figure class="project-banner-box">
+                                    <img src="/public/assets/projects/smarthomebot.jpg" alt="SmartHomeBot" loading="lazy">
+                                </figure>
+
+                                <div class="project-content">
+
+                                    <div class="project-meta">
+                                        <p class="project-category">Internet of things</p>
+
+                                        <span class="dot"></span>
+
+                                        <time datetime="2022-02-23">Fab 23, 2022</time>
+                                    </div>
+
+                                    <h3 class="h3 project-item-title">SmartHomeBot</h3>
+
+                                    <p class="project-text">
+                                        This IoT Project used to control Home appliances with Telegram.
+                                    </p>
+
+                                </div>
+
+                            </a>
+                        </li>
+
+                        <li class="project-post-item">
+                            <a href="https://github.com/HackResist/File-Renaming-Tool">
+
+                                <figure class="project-banner-box">
+                                    <img src="/public/assets/projects/file renaming tool.jpg" alt="File-Renaming-Tool" loading="lazy">
+                                </figure>
+
+                                <div class="project-content">
+
+                                    <div class="project-meta">
+                                        <p class="project-category">Python</p>
+
+                                        <span class="dot"></span>
+
+                                        <time datetime="2022-02-23">Fab 23, 2022</time>
+                                    </div>
+
+                                    <h3 class="h3 project-item-title">File Renaming Tool</h3>
+
+                                    <p class="project-text">A basic and simple Python program designed to rename filenames and file extensions.
+                                    </p>
+
+                                </div>
+
+                            </a>
+                        </li>
+
+                        <li class="project-post-item">
+                            <a href="#">
+
+                                <figure class="project-banner-box">
+                                    <img src="/public/assets/projects/Prodigy cs 1.jpg" alt="PRODIGY TASK_01" loading="lazy">
+                                </figure>
+
+                                <div class="project-content">
+
+                                    <div class="project-meta">
+                                        <p class="project-category">Python</p>
+
+                                        <span class="dot"></span>
+
+                                        <time datetime="2022-02-23">Fab 23, 2022</time>
+                                    </div>
+
+                                    <h3 class="h3 project-item-title">PRODIGY TASK_01</h3>
+
+                                    <p class="project-text">
+                                        Caesar Cipher tool that encrypts and decrypts text.
+                                    </p>
+
+                                </div>
+
+                            </a>
+                        </li>
+
+                        <li class="project-post-item">
+                            <a href="#">
+
+                                <figure class="project-banner-box">
+                                    <img src="/public/assets/projects/prodigy cs 2.jpg" alt="PRODIGY TASK_02" loading="lazy">
+                                </figure>
+
+                                <div class="project-content">
+
+                                    <div class="project-meta">
+                                        <p class="project-category">Python</p>
+
+                                        <span class="dot"></span>
+
+                                        <time datetime="2022-02-23">Fab 23, 2022</time>
+                                    </div>
+
+                                    <h3 class="h3 project-item-title">PRODIGY TASK_02</h3>
+
+                                    <p class="project-text">
+                                        Simple image encryption tool using pixel manipulation.
+                                    </p>
+
+                                </div>
+
+                            </a>
+                        </li>
+                        <li class="project-post-item">
+                            <a href="#">
+
+                                <figure class="project-banner-box">
+                                    <img src="/public/assets/projects/prodigy cs 3.jpg" alt="PRODIGY TASK_03" loading="lazy">
+                                </figure>
+
+                                <div class="project-content">
+
+                                    <div class="project-meta">
+                                        <p class="project-category">Python</p>
+
+                                        <span class="dot"></span>
+
+                                        <time datetime="2022-02-23">Fab 23, 2022</time>
+                                    </div>
+
+                                    <h3 class="h3 project-item-title">PRODIGY TASK_03</h3>
+
+                                    <p class="project-text">Password Complexity Checker based on criteria such as length, presence of uppercase and lowercase letters, numbers, and special characters.
+                                    </p>
+
+                                </div>
+
+                            </a>
+                        </li>
+
+                        <li class="project-post-item">
+                            <a href="#">
+
+                                <figure class="project-banner-box">
+                                    <img src="/public/assets/projects/prodigy cs 4.jpg" alt="PRODIGY TASK_04" loading="lazy">
+                                </figure>
+
+                                <div class="project-content">
+
+                                    <div class="project-meta">
+                                        <p class="project-category">Python</p>
+
+                                        <span class="dot"></span>
+
+                                        <time datetime="2022-02-23">Fab 23, 2022</time>
+                                    </div>
+
+                                    <h3 class="h3 project-item-title">PRODIGY TASK_04</h3>
+
+                                    <p class="project-text">
+                                        Simple Keylogger program that records and logs keystrokes. It also saves all records into a txt file.
+                                    </p>
+
+                                </div>
+
+                            </a>
+                        </li>
+
+                        <li class="project-post-item">
+                            <a href="#">
+
+                                <figure class="project-banner-box">
+                                    <img src="/public/assets/projects/prodigy cs 5.jpg" alt="PRODIGY TASK_05" loading="lazy">
+                                </figure>
+
+                                <div class="project-content">
+
+                                    <div class="project-meta">
+                                        <p class="project-category">Python</p>
+
+                                        <span class="dot"></span>
+
+                                        <time datetime="2022-02-23">Fab 23, 2022</time>
+                                    </div>
+
+                                    <h3 class="h3 project-item-title">PRODIGY TASK_05</h3>
+
+                                    <p class="project-text">
+                                        Network Packet Analyzer tool that captures and analyzes network packets.
+                                    </p>
+
+                                </div>
+
+                            </a>
+                        </li>
+
+
+                    </ul>
+
+                </section>
+
+            </article>
+
+
+
+
+
+            <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+    
+        <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+          <form action="#" class="form" data-form>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+                </form>
+                </section>
+                </article>
+            </div>
+
+    </main>
+
+
+
+
+
+
+    <!--
+    - custom js link
+  -->
+    <script src="/public/js/main.js"></script>
+    <script src="/public/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
