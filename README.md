@@ -2,6 +2,8 @@
 
 Welcome to my website portfolio! This website showcases my work and includes a contact form for visitors to reach out to me. The form data is sent directly to a **Telegram bot** using the **Telegram Bot API**. This website has been built using **HTML**, **CSS**, **JavaScript**, and **PHP** for form submission and Telegram integration.
 
+> If You Like This Template Don't forget give a star.
+
 ## Technologies Used
 
 ### 1. **HTML** 
@@ -32,7 +34,7 @@ To set up and run this website locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/dev-lokesh-eu/Portfolio-Website.git
+   git clone https://github.com/dev-lokesh-eu/Portfolio-Site.git
 2. Configure your chat-ID and Bot token in `.env` file.
 3. Make sure you have a local server running (e.g., XAMPP, WAMP, or LAMP) to process PHP files.
 
